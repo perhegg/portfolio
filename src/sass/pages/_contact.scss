@@ -1,46 +1,64 @@
 
 
 .contact {
-    width: 40%;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-left: auto;
+    width: 60%;
+    margin: 40px auto 100px auto;
     display: grid;
-    grid-row-gap: 10px;
+    grid-template-columns: repeat(4, 1fr) 430px;
+    grid-template-rows: 70px 70px 70px 100px;
+    grid-auto-rows: 300px;
+    grid-column-gap: 10px;
     justify-content: left;
 
     font-size: 3rem;
-}
+    animation: fadeIn 1s ease-out;
 
-.icons {
-    margin-top: 10px;
-        
+    &__bild {
+        grid-column: 5/-1;
+        grid-row: 1/6;
+        background-image: url(../../data/img/perbild.jpg);
+        background-size: cover;
+    }
+
+    &__name {
+        grid-column: 1/5;
+        grid-row: 1;
+    }
+
+    &__telefon {
+        grid-column: 1/5;
+        grid-row: 2;
+    }
+
+    &__mail {
+        grid-column: 1/5;
+        grid-row: 3;
+    }
+
     &__github {
-        display: inline-block;
-        margin-left: 10px;
-        height: 50px;
-        width: 50px;
+        grid-column: 1/2;
+        grid-row: 4;
         background-image: url(../../data/img/github.png);
         background-size: contain;
 
+        height: 50px;
+        width: 50px;
+
         &:hover {
             cursor: pointer;
         }
     }
-    
-    &__linkedin {
-        margin-left: 30%;
-        display: inline-block;
 
+    &__linkedin {
+        grid-column: 2/3;
+        grid-row: 4;
         height: 50px;
         width: 50px;
-        background-image: url(../../data/img/linkedin.png);
+        background-image: url(../../data/img/insta.png);
         background-size: contain;
 
         &:hover {
             cursor: pointer;
         }
     }
-    
-
 }

@@ -9,23 +9,19 @@ class Projects extends Component {
                 {
                     "id": 1,
                     "name": "CSS/SASS project",
-                    "page": "http://www.aftonbladet.se",
-                    "description": "CSS/SASS Project",
-                    "image": "./sass/img/natour.png"
-                },
+                    "page": "https://css-sass-project.netlify.com/",
+                    "description": "CSS/SASS Project"                },
                 {
                     "id": 2,
                     "name": "Sten sax påse",
                     "page": "https://stensaxpawse.netlify.com/",
-                    "description": "Simple Rock Paper Scissor game in vanilla Javascript",
-                    "image": "./sass/img/natour.png"         
+                    "description": "Simple Rock Paper Scissor game in vanilla Javascript"
                 },
                 {
                     "id": 3,
                     "name": "Sten sax påse",
-                    "page": "https://stensaxpawse.netlify.com/",
-                    "description": "Simple Rock Paper Scissor game in vanilla Javascript",
-                    "image": "./sass/img/natour.png"            
+                    "page": "https://budgetjavascript.netlify.com/",
+                    "description": "Simple Rock Paper Scissor game in vanilla Javascript"
                 }
             ]
         };
@@ -39,7 +35,7 @@ class Projects extends Component {
             projectsList = projects.map(project => {
                 return (
                     <div key={project.id} className={`projects__item--${project.id}`}>
-                        <ProjectCard project={project} />
+                        <a href={project.page} target="_blank" rel="noopener noreferrer" className={`projects__link--${project.id}`}><ProjectCard project={project} /></a>
                     </div>
                 )
             })
@@ -48,6 +44,9 @@ class Projects extends Component {
         return (
             <div className="projects">
                 {projectsList}
+                <div className="projects__description projects__description--1">CSS</div>
+                <div className="projects__description projects__description--2">SPEL</div>
+                <div className="projects__description projects__description--3">API</div>
             </div>
         )
     }
