@@ -3,24 +3,13 @@
 
 @import "./sass/base/base";
 
-@import "./sass/components/projectcard";
 @import "./sass/components/button";
-@import "./sass/components/card";
 
-@import "./sass/layout/grid";
 
 @import "./sass/pages/header";
-@import "./sass/pages/linksection";
 @import "./sass/pages/about";
 @import "./sass/pages/contact";
+@import "./sass/pages/projects";
 
 
 @import "./sass/base/animations";
-
-
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}

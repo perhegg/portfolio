@@ -11,6 +11,7 @@ const LinkSection = () => {
                 <li className="linksection__list-item"><NavLink to='/projects' className="navlink" activeClassName="activeLink">My Projects</NavLink></li>
                 <li className="linksection__list-item"><NavLink to='/contact' className="navlink" activeClassName="activeLink">Contact</NavLink></li>
             </ul>
+            <div className="line"></div>
         </section>
     )
 }

@@ -2,15 +2,47 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="about__grid">
-            <div className="column--1">
-                <div className="column--1--bild"></div>
-                <div className="column--1--text"></div>
-            </div>
-            <div className="column--2">
-            <h1 className="about__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h1>
-            </div>
+        <div className="about">
+            <div className="about__grid">
+                <div className="about__item--1">
+                    <div className="about__item--1--bild"></div>
+                </div>
+                <div className="about__item--2">
+                    <h1 className="about__content-text">Hello and Welcome! My name is Per Eriksson and I'm a Junior Full Stack Developer with a passion for computers, music, health and so much more. I am opera singer with a master degree but I've recently decided to switch career and become a developer.    </h1>
+                </div>
 
+                <div className="about__item--3">
+                    SKILLS
+                </div>
+
+                <ul className="about__item--4 about__item--4--list--1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SASS</li>
+                    <li>REACT</li>
+                </ul>
+
+                <ul className="about__item--4 about__item--4--list--2">
+
+                    <li>RUBY</li>
+                    <li>RUBY ON RAILS</li>
+                    <li>SQL</li>
+                    <li>PYTHON</li>
+                </ul>
+                <ul className="about__item--4 about__item--4--list--3">
+
+                    <li>RUBY</li>
+                    <li>RUBY</li>
+                    <li>RUBY</li>
+                    <li>RUBY</li>
+                </ul>
+
+                <div className="about__item--5">
+                    EDUCATION
+                </div>
+
+
+            </div>
         </div>
     )
 

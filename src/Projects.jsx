@@ -38,7 +38,7 @@ class Projects extends Component {
         if (projects.length > 0) {
             projectsList = projects.map(project => {
                 return (
-                    <div key={project.id} className={`item--${project.id}`}>
+                    <div key={project.id} className={`projects__item--${project.id}`}>
                         <ProjectCard project={project} />
                     </div>
                 )
@@ -46,7 +46,7 @@ class Projects extends Component {
         }
 
         return (
-            <div className="grid">
+            <div className="projects">
                 {projectsList}
             </div>
         )

@@ -1,0 +1,30 @@
+.card {
+    height: 100%;
+}
+
+.projects {
+    display: grid;
+    justify-content: center;
+    margin-top: 40px;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 400px 400px ;
+    grid-gap: 20px;
+
+    &__item--1 {
+        background-image: url(../../data/img/natour.png);
+        background-position: center;
+        border-radius: 6px; 
+    }
+
+    &__item--2 {
+        background-image: url(../../data/img/dator.jpg);
+        background-position: center;
+        border-radius: 6px; 
+    }
+
+    &__item--3 {
+        background-image: url(../../data/img/dator.jpg);
+        background-size: contain;
+        border-radius: 6px;    
+    }
+}

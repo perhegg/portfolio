@@ -1,21 +1,46 @@
+
+
 .contact {
-    height: 50vh;
-    width: 70%;
+    width: 40%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
     display: grid;
-    // grid-template-columns: 1fr 1fr;
     grid-row-gap: 10px;
-    justify-content: center;
+    justify-content: left;
 
     font-size: 3rem;
+}
 
+.icons {
+    margin-top: 10px;
+        
     &__github {
-        height: 100px;
-        background-image: url(../img/);
-    }
+        display: inline-block;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+        background-image: url(../../data/img/github.png);
+        background-size: contain;
 
-    &__linkedin {
-        height: 100px;
-        width: 100%;
-        background-image: url(../img/perbild.jpg);
+        &:hover {
+            cursor: pointer;
+        }
     }
+    
+    &__linkedin {
+        margin-left: 30%;
+        display: inline-block;
+
+        height: 50px;
+        width: 50px;
+        background-image: url(../../data/img/linkedin.png);
+        background-size: contain;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    
+
 }
