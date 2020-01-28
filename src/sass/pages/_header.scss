@@ -1,0 +1,41 @@
+.header {
+    height: 25vh;
+    // background-image: linear-gradient(
+    //     to right bottom,
+    //     rgba(grey, 0.801),
+    //     rgba(lightgrey, 0.774)),
+    //     url(/src/sass/img/dator.jpg);
+    // background-size: cover;
+    // background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    position: relative;
+}
+
+.heading__primary {
+    text-align: center;
+    color: black;    
+    text-transform: uppercase;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backface-visibility: hidden;
+            
+    &-main {
+        display: block;
+        font-size: 5rem;
+        font-weight: 400;
+        letter-spacing: 1.5rem;
+
+        animation: moveInLeft 1s ease-out;
+    }
+
+    &-sub {        
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 1.5rem;
+
+        animation: moveInRight 1s ease-out;
+    }
+}

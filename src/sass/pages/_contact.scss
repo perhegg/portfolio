@@ -1,0 +1,21 @@
+.contact {
+    height: 50vh;
+    width: 70%;
+    display: grid;
+    // grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    justify-content: center;
+
+    font-size: 3rem;
+
+    &__github {
+        height: 100px;
+        background-image: url(../img/github.png);
+    }
+
+    &__linkedin {
+        height: 100px;
+        width: 100%;
+        background-image: url(../img/linkedin.png);
+    }
+}
