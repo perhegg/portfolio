@@ -6,8 +6,9 @@
     display: grid;
     justify-content: center;
     margin-top: 40px;
-    grid-template-columns: 500px 500px 500px;
-    grid-template-rows: 400px 50px ;
+    margin-bottom: 100px;
+    grid-template-columns: minmax(250px, 500px) minmax(250px, 500px) minmax(250px, 500px);
+    grid-template-rows: minmax(200px, 400px) 50px ;
     grid-gap: 20px;
 
     animation: fadeIn 1s ease-out;
@@ -53,6 +54,7 @@
 
     &__description {
         justify-self: center;
+        font-size: 1.5rem;
         &--1 {
 
         }
