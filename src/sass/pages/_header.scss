@@ -4,17 +4,38 @@
     display: grid;
     width: 60%;
     justify-content: center;
+    margin: auto;
 
     grid-template-columns: repeat(3, 300px);
     grid-template-rows: 100px 
                         100px
                         minmax(50px, 50px);
 
-    margin: auto;
+    @media (max-width: 414px) {
+        padding-top: 0;
+        width: 100%;
+        grid-template-columns: repeat(3, 125px);
+        grid-template-rows: 100px 
+                            50px
+                            minmax(50px, 50px);
+    }
+
+    @media (max-width: 1199px) {
+
+    }
+
 
     &__link--1 {
         justify-self: right;
         grid-row: 3;
+
+        @media (max-width: 414px) {
+            justify-self: center;
+        }
+
+        @media (max-width: 1199px) {
+
+        }
     }
 
     &__link--2 {
@@ -25,9 +46,16 @@
 
     &__link--3 {
         justify-self: left;
-
         grid-row: 3;
-    }    
+
+        @media (max-width: 414px) {
+            justify-self: center;
+        }
+
+        @media (max-width: 1199px) {
+
+        }
+    }
 }
 
 .navlink {
@@ -46,6 +74,14 @@
     &:focus {
         border-bottom: 1px solid #000    
     }
+
+    @media (max-width: 414px) {
+        font-size: 1rem;
+    }
+
+    @media (max-width: 1199px) {
+
+    }
 }
 
 
@@ -61,6 +97,14 @@
         grid-row: 1;
 
         animation: moveInLeft 1s ease-out;
+
+        @media (max-width: 414px) {
+            font-size: 3rem;
+        }
+
+        @media (max-width: 1199px) {
+
+        }
     }
 
     &-sub {  
@@ -72,7 +116,14 @@
         grid-column: 1/-1;
         grid-row: 2;
 
-
         animation: moveInRight 1s ease-out;
+
+        @media (max-width: 414px) {
+            font-size: 1rem;
+        }
+
+        @media (max-width: 1199px) {
+
+        }
     }
 }
