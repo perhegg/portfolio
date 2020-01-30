@@ -6,7 +6,7 @@
     justify-content: center;
     margin: auto;
 
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, minmax(200px, 300px));
     grid-template-rows: 100px 
                         100px
                         minmax(50px, 50px);
@@ -20,21 +20,12 @@
                             minmax(50px, 50px);
     }
 
-    @media (max-width: 1199px) {
-
-    }
-
-
     &__link--1 {
         justify-self: right;
         grid-row: 3;
 
         @media (max-width: 414px) {
             justify-self: center;
-        }
-
-        @media (max-width: 1199px) {
-
         }
     }
 
@@ -50,10 +41,6 @@
 
         @media (max-width: 414px) {
             justify-self: center;
-        }
-
-        @media (max-width: 1199px) {
-
         }
     }
 }
@@ -74,13 +61,12 @@
     &:focus {
         border-bottom: 1px solid #000    
     }
+    @media (max-width: 550px) {
+        font-size: 1.5rem;
+    }
 
     @media (max-width: 414px) {
         font-size: 1rem;
-    }
-
-    @media (max-width: 1199px) {
-
     }
 }
 
@@ -98,18 +84,18 @@
 
         animation: moveInLeft 1s ease-out;
 
+        @media (max-width: 550px) {
+            font-size: 4rem;
+        }
+
         @media (max-width: 414px) {
             font-size: 3rem;
         }
-
-        @media (max-width: 1199px) {
-
-        }
     }
 
-    &-sub {  
+    &-sub {
         justify-self: center;
-        align-self: flex-start;      
+        align-self: flex-start;
         font-size: 2rem;
         font-weight: 400;
         letter-spacing: 1.5rem;
@@ -118,12 +104,12 @@
 
         animation: moveInRight 1s ease-out;
 
-        @media (max-width: 414px) {
-            font-size: 1rem;
+        @media (max-width: 550px) {
+            font-size: 1.5rem;
         }
 
-        @media (max-width: 1199px) {
-
+        @media (max-width: 414px) {
+            font-size: 1rem;
         }
     }
 }
