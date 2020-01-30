@@ -35,7 +35,7 @@ class Projects extends Component {
             projectsList = projects.map(project => {
                 return (
                     <div key={project.id} className={`projects__item--${project.id}`}>
-                        <a href={project.page} target="_blank" rel="noopener noreferrer" className={`projects__link--${project.id}`}><ProjectCard project={project} /></a>
+                        <a href={project.page} target="_blank" rel="noopener noreferrer" className={`projects__link--${project.id}`}><ProjectCard project /></a>
                     </div>
                 )
             })
