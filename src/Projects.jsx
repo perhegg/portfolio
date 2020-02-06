@@ -45,7 +45,7 @@ class Projects extends Component {
             <div className="projects">
                 {projectsList}
                 <div className="projects__description projects__description--1">Pure CSS/SASS page</div>
-                <div className="projects__description projects__description--2">Simple rock paper scissor game</div>
+                <div className="projects__description projects__description--2">Simple rock paper scissor game written with javascript</div>
                 <div className="projects__description projects__description--3">A vanilla Javascript budget app</div>
             </div>
         )

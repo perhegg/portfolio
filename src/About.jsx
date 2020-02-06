@@ -7,13 +7,13 @@ const About = () => {
                 <div className="about__item--2">
                     <p className="about__content-text">
                         My name is Per Eriksson and I'm a Junior Full Stack Developer with a passion for computers, music, health and so much more. 
-                        I am opera singer with a master degree and have been working since 2015 but I've decided to switch career and become a developer. Comuters, math and logic
+                        I am opera singer with a master degree and have been working since 2015 but I've decided to switch career and become a developer. Computers, math and logic
                         have always been big passions of mine and I felt it was time to take those passions seriously.
                         In 2019 I took a 12 week Full stack Developer boot camp at Craft Academy. 
-                        The course was very intense and I really learnt alot. The focus was on 
-                        agile development with morning scrum and also test driven development where you write the tests before doing any coding.  
-                        We worked mainly with Ruby on Rails as back end and React as front end. <br/> <br/>
-                        After the course I continued to take courses in javascript, css, python, sql etc.
+                        The course was very intense and I really learnt a lot. The focus was on 
+                        Agile development, SCRUM and test driven development(TDD).  
+                        We worked mainly with Ruby (Ruby on Rails) and Javascript (React). <br/> <br/>
+                        After the course I continued to take courses in Javascript, CSS, Python, SQL.
                         I really feel that I'm ready to start working as a developer and to dive deeper into the world of code.   
                         As a developer I'm a quick learner and eager to learn new things. 
                         I have very good patience and enjoy solving difficult problems and tasks. 
