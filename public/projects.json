@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Nature Tours",
+        "page": "https://css-sass-project.netlify.com/",
+        "description": "SASS project with many different features and effects.",
+        "image": "./data/img/css.png"
+    },
+    {
+        "id": 2,
+        "name": "Rock Paper Scissors",
+        "page": "https://stensaxpawse.netlify.com/",
+        "description": "Simple rock paper scissor game written with javascript.",
+        "image": "./data/img/sten1.png"
+    },
+    {
+        "id": 3,
+        "name": "Budget App",
+        "page": "https://budgetjavascript.netlify.com/",
+        "description": "A vanilla Javascript budget app where you can organize your income and expenses.",
+        "image": "./data/img/budget.png"
+    },
+    {
+        "id": 4,
+        "name": "Opera Reviews",
+        "page": "https://lascala-flexbox.netlify.com/",
+        "description": "Opera reviewing app styling written with CSS Flexbox.",
+        "image": "./data/img/opera.png"
+    }
+]
