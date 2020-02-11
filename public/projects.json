@@ -26,5 +26,12 @@
         "page": "https://lascala-flexbox.netlify.com/",
         "description": "Opera reviewing app styling written with CSS Flexbox.",
         "image": "./data/img/opera.png"
+    },
+    {
+        "id": 5,
+        "name": "Realtor Page",
+        "page": "https://pergridproject.netlify.com/",
+        "description": "Page where you can find your dream house written with CSS Grid",
+        "image": "./data/img/gridprojekt.png"
     }
 ]
