@@ -13,8 +13,8 @@ const About = () => {
                         The course was very intense and I really learnt a lot. The focus was on 
                         Agile development, SCRUM and test driven development(TDD).  
                         We worked mainly with Ruby (Ruby on Rails) and Javascript (React). <br/> <br/>
-                        After the course I continued to take courses in Javascript, CSS, Python, SQL.
-                        I really feel that I'm ready to start working as a developer and to dive deeper into the world of code.   
+                        After the course I continued to take courses in Javascript, CSS, Python, SQL.<br/> 
+                        I've worked as a Junior full-stack developer at Trainimal since march 2020 and have been doing both back-end (python) and front-end (flutter).    
                         As a developer I'm a quick learner and eager to learn new things. 
                         I have very good patience and enjoy solving difficult problems and tasks. 
                         From my work as a singer I have learnt how to work in tight teams consisting of many different personalities, always ensuring that in the end "the show must go on".
@@ -45,6 +45,7 @@ const About = () => {
                     <li>Agile</li>
                     <li>Scrum</li>
                     <li>TDD</li>
+                    <li>Flutter</li>
                 </ul>
 
                 <div className="about__item--5">
@@ -52,6 +53,13 @@ const About = () => {
                     <div className="about__item--5--text">
                        <p>&diams; 12 week Full Stack Developer Boot Camp</p>
                        <p>&diams; 2 years of self studies</p>
+                    </div>
+                </div>
+
+                <div className="about__item--6">
+                    <h4 className="about__item--6--title">WORK EXPERIENCE</h4>
+                    <div className="about__item--6--text">
+                       <p>&diams; Junior full-stack developer at Trainimal</p>
                     </div>
                 </div>
 
