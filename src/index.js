@@ -1,10 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import { BrowserRouter, Switch, Route } from "react-router-dom"
-import Header from './Header'
-import Projects from './Projects'
-import About from './About'
-import Contact from './Contact'
+import Header from './components/Header'
+import Projects from './container/Projects'
+import About from './container/About'
+import Contact from './container/Contact'
 
 const App = () => {
     return (
