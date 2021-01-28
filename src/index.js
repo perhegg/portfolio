@@ -11,13 +11,13 @@ const App = () => {
         <div className="page-wrapper">
             <Header />
             <Switch>
-                <Route exact path='/' component={Projects}></Route>
-                <Route exact path='/about' component={About}></Route>
-                <Route exact path='/projects' component={Projects}></Route>
-                <Route exact path='/contact' component={Contact}></Route>
+                <Route exact path="/" component={Projects}></Route>
+                <Route exact path="/about" component={About}></Route>
+                <Route exact path="/projects" component={Projects}></Route>
+                <Route exact path="/contact" component={Contact}></Route>
             </Switch>
         </div >
-    )    
+    )
 };
 
 ReactDOM.render((
